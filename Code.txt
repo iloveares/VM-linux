@@ -1,0 +1,27 @@
+//input root passwords
+su -
+yum install gcc
+yum install gcc-g++
+mkdir CppFile
+cd CppFile
+vim test.cpp
+
+//check if there is a file called test.cpp
+ls
+
+
+//run the code
+g++ test.cpp -o test
+./test
+
+//test.cpp
+#include<iostream>
+using namespace std;
+int f(int x){
+	return x*x+2*x+1;
+}
+int main(){
+	printf("Hello World!\n");
+	cout<<f(5);
+	return 0;
+}
